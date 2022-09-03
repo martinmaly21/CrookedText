@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "CrookedText",
     platforms: [
-        .iOS(.v13),
+        .iOS(.v12),
         .macOS(.v10_15),
         .watchOS(.v6)
     ],

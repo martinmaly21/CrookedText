@@ -1,5 +1,6 @@
 import SwiftUI
 
+@available(iOS 13.0, *)
 internal struct TextViewSizeKey: PreferenceKey {
     typealias Value = [CGSize]
     static var defaultValue: [CGSize] { [] }
@@ -8,6 +9,7 @@ internal struct TextViewSizeKey: PreferenceKey {
     }
 }
 
+@available(iOS 13.0, *)
 internal struct PropagateSize<V: View>: View {
     var content: () -> V
     var body: some View {

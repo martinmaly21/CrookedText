@@ -1,5 +1,6 @@
 import SwiftUI
 
+@available(iOS 13.0, *)
 extension CrookedText {
     public func kerning(_ kerning: CGFloat) -> CrookedText {
         var copy = self

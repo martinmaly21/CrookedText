@@ -23,6 +23,7 @@
 
 import SwiftUI
 
+@available(iOS 13.0, *)
 public struct CrookedText: View {
 
     public enum Position {
